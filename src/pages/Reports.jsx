@@ -17,7 +17,7 @@ function Reports() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://localhost:5000/api/export/pdf",
+        "https://smarterp-n6qq.onrender.com/api/export/pdf",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -56,7 +56,7 @@ function Reports() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://localhost:5000/api/excel/sales",
+        "https://smarterp-n6qq.onrender.com/api/excel/sales",
         {
           headers: {
             Authorization: `Bearer ${token}`,
